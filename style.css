@@ -113,15 +113,15 @@
     background: var(--primary);
     z-index: -1;
   }
-  @keyframes glitch {
-    0% {
+  @keyframes glitch{
+    0%{
       clip-path: var(--clip-one);
     }
-    2%, 8% {
+    2%, 8%{
       clip-path: var(--clip-two);
-      transform: translate(calc(var(--shimmy-distance) * -1%), 0);
+      transform: translate(calc(var(--shimmy-distance)*-1%), 0);
     }
-    6% {
+    6%{
       clip-path: var(--clip-two);
       transform: translate(calc(var(--shimmy-distance) * 1%), 0);
     }
