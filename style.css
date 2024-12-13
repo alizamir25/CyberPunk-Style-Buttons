@@ -83,12 +83,12 @@
     color: hsl(0, 0%, 0%);
     font-size: var(--label-size);
   }
-  .btn__glitch {
+  .btn__glitch{
     position: absolute;
-    top: calc(var(--border) * -1);
-    left: calc(var(--border) * -1);
-    right: calc(var(--border) * -1);
-    bottom: calc(var(--border) * -1);
+    top: calc(var(--border)*-1);
+    left: calc(var(--border)*-1);
+    right: calc(var(--border)*-1);
+    bottom: calc(var(--border)*-1);
     background: var(--shadow-primary);
     text-shadow: 2px 2px var(--shadow-primary), -2px -2px var(--shadow-secondary);
     clip-path: var(--clip);
