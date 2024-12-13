@@ -95,10 +95,10 @@
     animation: glitch 2s infinite;
     display: none;
   }
-  .input:hover + .btn .btn__glitch {
+  .input:hover+.btn .btn__glitch{
     display: block;
   }
-  .input:checked + .btn .btn__glitch {
+  .input:checked+.btn .btn__glitch{
     display: block;
     animation: glitch 5s infinite;
   }
