@@ -1,14 +1,14 @@
-.container {
+.container{
     display: flex;
     flex-direction: row;
   }
-  .radio-wrapper {
+  .radio-wrapper{
     position: relative;
     height: 38px;
     width: 84px;
     margin: 3px;
   }
-  .radio-wrapper .input {
+  .radio-wrapper .input{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -17,7 +17,7 @@
     z-index: 10;
     opacity: 0;
   }
-  .btn {
+  .btn{
     --primary: #ff184c;
     --shadow-primary: #fded00;
     --color: white;
