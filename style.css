@@ -145,13 +145,13 @@
       clip-path: var(--clip-five);
       transform: translate(calc(var(--shimmy-distance)*1%), 0);
     }
-    30% {
+    30%{
       clip-path: var(--clip-five);
-      transform: translate(calc(var(--shimmy-distance) * -1%), 0);
+      transform: translate(calc(var(--shimmy-distance)*-1%), 0);
     }
-    35%, 45% {
+    35%, 45%{
       clip-path: var(--clip-six);
-      transform: translate(calc(var(--shimmy-distance) * -1%));
+      transform: translate(calc(var(--shimmy-distance)*-1%));
     }
     40% {
       clip-path: var(--clip-six);
