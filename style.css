@@ -133,17 +133,17 @@
       clip-path: var(--clip-three);
       transform: translate(calc(var(--shimmy-distance)*1%), 0);
     }
-    13% {
+    13%{
       clip-path: var(--clip-three);
       transform: translate(0, 0);
     }
-    14%, 21% {
+    14%, 21%{
       clip-path: var(--clip-four);
-      transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+      transform: translate(calc(var(--shimmy-distance)*1%), 0);
     }
-    25% {
+    25%{
       clip-path: var(--clip-five);
-      transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+      transform: translate(calc(var(--shimmy-distance)*1%), 0);
     }
     30% {
       clip-path: var(--clip-five);
