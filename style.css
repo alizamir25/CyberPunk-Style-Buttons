@@ -50,14 +50,17 @@
     text-align: center;
     transition: background 0.2s, 0.3s;
   }
+
   .input:checked + .btn{
     --primary: #8B00FF;
     --shadow-primary: #00e572;
   }
+
   .input:hover + .btn{
     --primary: #cc133c;
     --font-size: 11px;
   }
+
   .btn:after, .btn:before{
     content: '';
     position: absolute;
@@ -68,13 +71,16 @@
     clip-path: var(--clip);
     z-index: -1;
   }
+
   .btn:before{
     background: var(--shadow-primary);
     transform: translate(var(--border), 0);
   }
+
   .btn:after{
     background: var(--primary);
   }
+
   .btn__tag{
     position: absolute;
     padding: 1px 4px;
@@ -86,6 +92,7 @@
     color: hsl(0, 0%, 0%);
     font-size: var(--label-size);
   }
+  
   .btn__glitch{
     position: absolute;
     top: calc(var(--border)*-1);
